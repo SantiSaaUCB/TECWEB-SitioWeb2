@@ -1,0 +1,49 @@
+body{
+     margin: 0;
+     font-size: 5rem;
+}
+.colores{
+     color: #00CFE2;
+     color: #00B0C0;
+     color: #00D8EA;
+     color: #00919E;
+     color: #00727C;
+     color: #00535A;
+     color: #00434B;
+}
+.contenedor-principal{
+     background-color: #00434B;
+     height: 100vh;
+     flex-basis: 100%;
+     flex-grow: 1;
+     flex-shrink: 1;
+     display: flex;
+     flex-direction: row;
+}
+.uno,
+.contenedor-secundario{
+     height: 100vh;
+     flex-basis: 50%;
+     flex-grow: 1;
+     flex-shrink: 1;
+     display: flex;
+     flex-direction: column;
+}
+.uno,
+.dos,
+.tres{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.uno{
+     background-color: #00CFE2;
+}
+.dos{
+     background-color: #00D8EA;
+     height: 50%;
+}
+.tres{
+     background-color: #00727C;
+     height: 50%;
+}
